@@ -50,7 +50,7 @@ describe("Katalon-demo-cura.herokuapp scenarios 1 and 2", () => {
         HomePage.valComment.should('contain', 'CURA Healthcare Service');
     })
 
-    it.only('Appointment history empty', () => {
+    it('Appointment history empty', () => {
       // Click - Make Appointment
       HomePage.makeAppontmentButton.click();
       // Set username and password fields with the demo account credentials
